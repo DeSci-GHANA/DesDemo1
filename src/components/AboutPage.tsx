@@ -27,10 +27,8 @@ export function AboutPage() {
   ];
 
   const milestones = [
-    { year: '2022', event: 'DeSci GH Founded', description: 'Established as Ghana\'s first decentralized science organization' },
-    { year: '2023', event: 'First Research Grant', description: 'Launched blockchain-based funding for local researchers' },
-    { year: '2024', event: 'Partnership Network', description: 'Formed collaborations with 30+ institutions across Africa' },
-    { year: '2025', event: 'Education Initiative', description: 'Launched open science education platform reaching 10,000+ students' },
+    { year: '2025', event: 'DeSci GH Founded', description: 'Established as Ghana\'s first decentralized science organization' },
+    { year: '2025', event: 'Education Initiative', description: 'Launched open science communication platform reaching out  students' },
   ];
 
   return (
