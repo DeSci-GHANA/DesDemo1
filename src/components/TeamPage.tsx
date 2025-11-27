@@ -30,7 +30,7 @@ export function TeamPage() {
       bio: 'Expert in Web development for scientific solutions and research.',
       image: adugdaaPhoto,
       socials: {
-        linkedin: 'https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile',
+        linkedin: 'https://www.linkedin.com/in/justice-adugdaa-atiah-0b2668280?originalSubdomain=gh',
         twitter: 'https://x.com/meme_verse59485?t=qXoL-gIayFm0FnIoaxnnXQ&s=09',
         email: 'adugdaaatiahjustice@gmail.com'
       }
@@ -61,13 +61,8 @@ export function TeamPage() {
     },
   ];
 
-  const departments = [
-    { name: 'Biotechnology', members: 25, projects: 12 },
-    { name: 'Data Science', members: 30, projects: 18 },
-    { name: 'Environmental Science', members: 20, projects: 10 },
-    { name: 'Education & Outreach', members: 15, projects: 8 },
-  ];
-
+ // Research departments data removed (now delivered via backend or UI components).
+ 
   return (
     <div className="space-y-8 max-w-6xl mx-auto lg:pt-16">
       {/* Header */}
@@ -155,31 +150,7 @@ export function TeamPage() {
         </div>
       </div>
 
-      {/* Research Departments */}
-      <div>
-        <h2 className="text-gray-900 mb-6">Research Departments</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-          {departments.map((dept, index) => (
-            <Card key={index}>
-              <CardHeader>
-                <CardTitle>{dept.name}</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="flex justify-between">
-                  <div>
-                    <p className="text-gray-900">{dept.members}</p>
-                    <p className="text-xs text-gray-500">Members</p>
-                  </div>
-                  <div>
-                    <p className="text-gray-900">{dept.projects}</p>
-                    <p className="text-xs text-gray-500">Projects</p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-      </div>
+      {/* Research Departments removed: moved to backend-driven data or a separate component */}
 
       {/* Join Team CTA */}
       <Card className="bg-gradient-to-r from-lime-600 to-cyan-600 text-white">
