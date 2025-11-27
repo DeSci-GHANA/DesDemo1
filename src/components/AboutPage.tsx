@@ -87,7 +87,7 @@ export function AboutPage() {
         <CardContent className="space-y-4 text-gray-700">
           <p>
             DeSci GH was born from a simple yet powerful idea: that scientific research should be accessible, 
-            transparent, and community-driven. Founded in 2022 by a group of passionate Ghanaian researchers 
+            transparent, and community-driven. Founded in 2025 by a group of passionate Ghanaian researchers 
             and blockchain enthusiasts, we recognized the challenges facing the African scientific community—from 
             limited funding to restricted access to research infrastructure.
           </p>
